@@ -47,7 +47,7 @@ export default function HeroSection() {
                 {/* 3 Column Section */}
                 <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-8 align-text-top">
                     {/* Column 1: Names */}
-                    <div className="space-y-2 mx-auto mt-[-50px] text-left">
+                    <div className="space-y-2 mx-auto sm:mt-10 md:mt-[-50px] sm:text-center md:text-left">
                         <p className="text-[#ffb22d] text-2xl font-bold">CEO Mini Guleria</p>
                         <p className="text-[#fcb12f] text-2xl font-bold">Sect. Kavita Singh</p>
                         <p className="text-[#fcb12f] text-2xl font-bold">Dir. Lalita Jaswal</p>
@@ -55,15 +55,15 @@ export default function HeroSection() {
                     </div>
 
                     {/* Column 2: Under Construction */}
-                    <div className="flex items-start justify-center mt-10">
+                    <div className="flex items-start justify-center sm:mt-6 md:mt-10">
                         <button className="bg-[#f53756] hover:bg-[#c02b44] text-white text-3xl px-6 py-3 font-bold rounded-full ">
                             Under Construction
                         </button>
                     </div>
 
                     {/* Column 3: Image + Quote */}
-                    <div className="flex flex-col items-center justify-center mt-[-100px]">
-                        <p className="text-[#27c0ce] text-4xl font-bold pb-4">
+                    <div className="flex flex-col items-center justify-center sm:mt-10 md:mt-[-100px]">
+                        <p className="text-[#27c0ce] text-4xl font-bold pb-6">
                             Support Noble Cause
                         </p>
                         <Image
@@ -71,7 +71,7 @@ export default function HeroSection() {
                         alt="Inspiration"
                         width={200}
                         height={200}
-                        className="rounded-full mb-4"
+                        className="rounded-full mb-4 sm:py-4"
                         />
                         
                     </div>
