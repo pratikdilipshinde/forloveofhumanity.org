@@ -26,12 +26,12 @@ export default function HeroSection() {
                 </div>
             </div>
         </section> */}
-        <section className="relative w-full bg-[#24304b] text-white overflow-hidden">
+        <section className="relative w-full bg-[#fcfdff] text-white overflow-hidden">
             {/* Background Pattern */}
-            <div className="absolute top-0 left-0 w-full h-full bg-[url('/banner-bg-shape.svg')] bg-cover bg-center opacity-20 z-0"></div>
+            <div className="absolute top-0 left-0 w-full h-full bg-[url('/banner-bg-shape.svg')] bg-cover bg-center opacity-60 z-0"></div>
 
             {/* Decorative Vector at Bottom */}
-            <div className="absolute bottom-0 left-0 w-full h-full opacity-30 mb-[-30px] bg-[url('/vector-img.png')] bg-repeat-x bg-bottom z-10"></div>
+            <div className="absolute bottom-0 left-0 w-full h-full opacity-90 mb-[-30px] bg-[url('/vector-img.png')] bg-repeat-x bg-bottom z-10"></div>
 
             {/* Main Content */}
             <div className="relative z-20 flex flex-col items-center min-h-[100vh] px-4 text-center">
@@ -78,7 +78,7 @@ export default function HeroSection() {
                 </div>
             </div>
         </section>
-        <footer className="bg-[#bdd1ff] text-gray-900 py-10 px-6 md:px-16 lg:px-32">
+        <footer className="bg-[#d4e1ff] text-gray-900 py-10 px-6 md:px-16 lg:px-32">
             <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
             
             {/* Contact Information */}
