@@ -53,6 +53,7 @@ import React, { useEffect, useMemo, useState, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, ChevronLeft, ChevronRight, Maximize2 } from "lucide-react";
 
+
 function PhotoMasonrySection({
   title = "Gallery",
   subtitle = "Helping the Community",
