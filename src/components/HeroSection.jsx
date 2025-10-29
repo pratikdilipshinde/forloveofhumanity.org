@@ -63,7 +63,7 @@ export default function HeroSection() {
                         <p className="text-[#27c0ce] text-3xl font-bold pb-6">
                             Health, Wealth and Happiness is our Birthright
                         </p>
-                        
+
                         {/* <Image
                         src="/about-2-img.jpg"
                         alt="Inspiration"
@@ -71,7 +71,6 @@ export default function HeroSection() {
                         height={200}
                         className="rounded-full mb-4 sm:py-4"
                         /> */}
-                        
                     </div>
                 </div>
             </div>

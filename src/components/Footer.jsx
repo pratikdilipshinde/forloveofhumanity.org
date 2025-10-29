@@ -43,7 +43,6 @@ export default function Footer() {
                     height={50}
                     className="object-contain"
                 />
-                
                 <p className="text-gray-900 text-center md:text-center mt-1">
                     © For Love of Humanity <br /> All Rights Reserved
                 </p>

@@ -319,8 +319,6 @@ const demoPhotos = [
   { src: "/img-8.jpg" }, 
   { src: "/img-3.jpg" } ];
 
-
-
 // import React, { useEffect, useMemo, useState, useCallback } from "react";
 // import { motion, AnimatePresence } from "framer-motion";
 // import { X, ChevronLeft, ChevronRight, Maximize2 } from "lucide-react";
