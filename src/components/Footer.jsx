@@ -1,10 +1,28 @@
 import React from "react";
+import Image from "next/image";
 import "swiper/css";
 import "swiper/css/pagination";
 
 export default function Footer() {
   return (
+    <>
+        <section className="bg-[#25a3d6] text-gray-900 font-bold py-4 px-1 md:px-4 lg:px-6">
+            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="flex flex-col items-center">
+                    <p className="">Sect. Kavita Singh</p>
+                </div>
+                <div className="flex flex-col items-center">
+                    <p className="">CEO Mini Guleria</p>
+                </div>
+                <div className="flex flex-col items-center">
+                    <p className="">Dir. Lalita Jaswal</p>
+                </div>
+                
+            </div>
+        </section>
+    
     <footer className="bg-[#d4e1ff] text-gray-900 py-10 px-6 md:px-16 lg:px-32">
+            
             <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
             
             {/* Contact Information */}
@@ -18,11 +36,17 @@ export default function Footer() {
 
             {/* Social Media Links */}
             <div className="flex flex-col items-center">
-                <p className="text-gray-900 text-center md:text-center mt-4">
+                <Image
+                    src="/logo.png"
+                    alt="Logo"
+                    width={50}
+                    height={50}
+                    className="object-contain"
+                />
+                <p className="text-gray-900 text-center md:text-center mt-1">
                     © For Love of Humanity <br /> All Rights Reserved
                 </p>
                 <div className="flex space-x-4">
-                
                 </div>
             </div>
 
@@ -36,5 +60,6 @@ export default function Footer() {
 
             </div>
         </footer>
+    </>
   );
 }
